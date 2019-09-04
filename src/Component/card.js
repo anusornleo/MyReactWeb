@@ -4,7 +4,8 @@ import { Button, Card } from "react-bootstrap";
 class MyCard extends React.Component {
   render() {
     return (
-        <Card >
+      <div class="col-sm-4">
+             <Card>
           <Card.Img variant="top" src="http://www.politicalmetaphors.com/wp-content/uploads/2015/04/blog-shapes-square-windows.jpg" />
           <Card.Body>
             <Card.Title>{this.props.title}</Card.Title>
@@ -15,6 +16,8 @@ class MyCard extends React.Component {
             <Button variant="primary">Go somewhere</Button>
           </Card.Body>
         </Card>
+      </div>
+   
     );
   }
 }

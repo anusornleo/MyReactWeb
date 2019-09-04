@@ -5,7 +5,6 @@ import MenuCard from "./Component/menuCard";
 import AddNumber from "./Component/addNumber";
 
 function App() {
-  
   return (
     <div className="App">
       <MainNavber />
